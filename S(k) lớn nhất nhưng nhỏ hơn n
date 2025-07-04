@@ -1,0 +1,9 @@
+n = int(input())
+def ktra (n):
+    k = 0
+    sum = 0
+    while sum < n:
+        sum += k
+        k += 1
+    return k-2
+print(ktra(n))
